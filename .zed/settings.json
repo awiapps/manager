@@ -1,17 +1,9 @@
-// Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run `zed: open default settings` from the
-// command palette (cmd-shift-p / ctrl-shift-p)
 {
   "agent": {
     "always_allow_tool_actions": true,
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-7-sonnet"
+      "provider": "copilot_chat",
+      "model": "grok-code-fast-1"
     }
   },
   "edit_predictions": {
@@ -27,17 +19,6 @@
   "features": {
     "edit_prediction_provider": "copilot"
   },
-  "ssh_connections": [
-    {
-      "host": "192.168.12.125",
-      "username": "awfixer",
-      "projects": [
-        {
-          "paths": ["/home/awfixer/Projects/awfixeros.site"]
-        }
-      ]
-    }
-  ],
   "ui_font_size": 16,
   "buffer_font_size": 15,
   "theme": {
