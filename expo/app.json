@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "create",
-    "slug": "create",
+    "name": "manager",
+    "slug": "manager",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "create",
+    "scheme": "manager",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
